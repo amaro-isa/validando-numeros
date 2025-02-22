@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #9c0f6d73, purple);
+    color: black;
+    font: normal 15pt Times;
+    text-align: center;
+}
+
+header{
+    text-shadow: 2px 2px #f0b6dc;
+}
+
+section {
+    background: linear-gradient(to right, rgb(160, 160, 160), white, rgb(192, 192, 192)); /* cor do fundo* da caixa*/
+    border-radius: 10px; /* arredondamento da borda*/
+    padding: 10px; /* (pé direito)altura da caixa*/
+    height: auto;
+    width: 500px; /*largura da caixa*/
+    margin-top: 10px;
+    margin: auto; /*centralizou a caixa*/
+    box-shadow: 5px 5px 10px black;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+select#tabList {
+width: 150px;
+
+}
+
+p {
+    padding: 10;
+}
+
+
+footer {
+padding: 35px;
+text-shadow: 2px 2px #f0b6dc;
+font-style: italic;
+}

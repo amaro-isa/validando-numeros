@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validando Números</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Validando Números</h1>
+    </header>
+    <section>
+        <div>
+            <p> Número entre <strong>(1 e 100)</strong>: </p>
+            <p>Quantos numeros você quiser</p>
+            <input type="number" name="num" id="txtn">
+            <input type="button" value="adicionar" onclick="adicionar()">  
+            
+        </div>
+        
+        <div  id="segdiv">
+            <select name="lista" id="tabList" size="10"></select> <br>
+            <p>
+            <input Type="button" value="verificar" onclick="verificar()">
+            </p>
+            <p> Informações...</p>
+        </div>
+        <div id="res"> 
+
+        </div>
+    </section>
+    <footer>
+        &copy; @amaro_isa
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
